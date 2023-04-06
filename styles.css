@@ -258,6 +258,7 @@ input{
     }
     .aboutbody > #p1, .aboutbody > #p2, .aboutbody > #p3, .aboutbody > #p4{
         font-size: 13pt;
+        padding-left: 0cm;
         padding-bottom: 3mm;
         margin-left: 1cm;
     }
