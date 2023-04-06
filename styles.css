@@ -154,6 +154,25 @@ input{
 #toggleform{
     margin-left: 2.7em;
 }
+.container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.enhance {
+    padding: 1mm;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    z-index: 1;
+}
+  
+.enhance:hover {
+    transform: scale(1.2);
+    filter: brightness(110%);
+    z-index: 2;
+}
 
 @media screen and (max-width:700px) {
     #navigation>a{
@@ -239,7 +258,6 @@ input{
     }
     .aboutbody > #p1, .aboutbody > #p2, .aboutbody > #p3, .aboutbody > #p4{
         font-size: 13pt;
-        padding-left: 0cm;
         padding-bottom: 3mm;
         margin-left: 1cm;
     }
