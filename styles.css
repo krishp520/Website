@@ -174,7 +174,7 @@ input{
     z-index: 2;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:600px) {
     #navigation>a{
         font-size: 11pt;
         margin-left: 1cm;
@@ -223,7 +223,7 @@ input{
     }
 }
 
-@media screen and (min-width:701px) and (max-width:1300px){
+@media screen and (min-width:601px) and (max-width:1300px){
     #navigation>a{
         font-size: 12pt;
         padding-top: 1cm;
